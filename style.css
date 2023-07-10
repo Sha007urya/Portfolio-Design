@@ -159,17 +159,16 @@ transition: .5 ease;
      color:var(--main-color);
      border-color:var(--main-color);
 }
-.home .profession-container{
-     position: absolute;
-     top:50%;
-     right:0;
-     transform: translateY(-50%);
-      width: 768px;
-     height: 768px;
-     background:var(--white-color);
-     overflow: hidden;
-     pointer-events: none; 
-
+.home .profession-container {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 768px;
+    height: 768px;
+    background: var(--bg-color);
+    overflow: hidden;
+    pointer-events: none;
 }
 .home .profession-container .profession-box{
 position: absolute;
